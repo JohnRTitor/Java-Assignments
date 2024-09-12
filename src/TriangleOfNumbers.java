@@ -1,29 +1,33 @@
 import java.util.Scanner;
 
-class TriangleOfPalindromeNumbers {
+// Start of TriangleOfNumbers class
+class TriangleOfNumbers {
     public static void main (String[] args) {
+        // Scanner object from the Scanner class is used
         Scanner sc = new Scanner(System.in);
 
         System.out.print("How many rows to print? ");
-        Integer rows = sc.nextInt();
+        // reading a number from standard input
+        int rows = sc.nextInt();
 
         if (rows < 1) {
             // throw an error into the standard error stream, if user enters invalid input
-            System.err.println("Error: No of rows must be positive.");
-            System.exit(1);
+            System.out.println("Error: No of rows must be positive.");
+            return;
         }
 
-        for (Integer i = 1; i <= rows; i++) {
+        for (int i = 1; i <= rows; i++) {
             // Print the increasing part of the pattern
-            for (Integer j = 1; j <= i; j++) {
+            for (int j = 1; j <= i; j++) {
                 System.out.print(j);
             }
             // Print the decreasing part of the pattern
-            for (Integer j = i - 1; j >= 1; j--) {
+            for (int j = i - 1; j >= 1; j--) {
                 System.out.print(j);
             }
-            // Move to the next row
+            // Move to the next row by printing a newline
             System.out.println();
         }
     }
 }
+// End of TriangleOfNumbers class
