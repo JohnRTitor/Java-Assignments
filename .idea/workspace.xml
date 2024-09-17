@@ -4,30 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9cab636-275d-4fdb-8da5-71f3efb7ff0a" name="Changes" comment="update according to college standards">
+    <list default="true" id="d9cab636-275d-4fdb-8da5-71f3efb7ff0a" name="Changes" comment="organise">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayDeleteElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayInsertElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayRemoveDuplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraySumOfPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TriangleOfNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TriangleOfNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "JohnRTitor"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JohnRTitor&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:JohnRTitor/Java-Assignments.git",
-    "accountId": "6d53b7fa-e928-47af-af26-3b72302f4b55"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:JohnRTitor/Java-Assignments.git&quot;,
+    &quot;accountId&quot;: &quot;6d53b7fa-e928-47af-af26-3b72302f4b55&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -43,8 +55,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArrayDeleteElement.executor": "Run",
+    "Application.ArrayInsertElement.executor": "Run",
+    "Application.ArraySumOfPairs.executor": "Run",
     "Application.BinaryNumberChecking.executor": "Run",
+    "Application.EmployeeDetails.executor": "Run",
     "Application.FibonacciSeries.executor": "Run",
+    "Application.OddPositiveChecking.executor": "Run",
+    "Application.PrintQuotedLine.executor": "Run",
+    "Application.SumOfPairs.executor": "Run",
     "Application.TriangleOfNumbers.executor": "Run",
     "NIXITCH_NIXPKGS_CONFIG": "/etc/nix/nixpkgs-config.nix",
     "NIXITCH_NIX_CONF_DIR": "",
@@ -54,6 +73,8 @@
     "NIXITCH_NIX_REMOTE": "",
     "NIXITCH_NIX_USER_PROFILE_DIR": "/nix/var/nix/profiles/per-user/masum",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -62,7 +83,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/home/masum/Dev-Environment/College-Assignments/Java-Assignments/src/Main.java",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -83,7 +104,14 @@
       <option name="presentableId" value="Default" />
       <updated>1726063773264</updated>
       <workItem from="1726063774568" duration="1000" />
-      <workItem from="1726162344195" duration="6233000" />
+      <workItem from="1726162344195" duration="7426000" />
+      <workItem from="1726170448292" duration="1774000" />
+      <workItem from="1726172364333" duration="2066000" />
+      <workItem from="1726324219834" duration="3000" />
+      <workItem from="1726327963809" duration="52000" />
+      <workItem from="1726330317589" duration="696000" />
+      <workItem from="1726474184739" duration="7883000" />
+      <workItem from="1726542271605" duration="4886000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -93,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726166847047</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update according to college standards">
+      <option name="closed" value="true" />
+      <created>1726169246579</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726169246579</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,7 +138,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <MESSAGE value="update according to college standards" />
-    <option name="LAST_COMMIT_MESSAGE" value="update according to college standards" />
+    <MESSAGE value="organise" />
+    <option name="LAST_COMMIT_MESSAGE" value="organise" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
