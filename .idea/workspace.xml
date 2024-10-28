@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9cab636-275d-4fdb-8da5-71f3efb7ff0a" name="Changes" comment="organise">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayDeleteElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayInsertElement.java" afterDir="false" />
+    <list default="true" id="d9cab636-275d-4fdb-8da5-71f3efb7ff0a" name="Changes" comment="add array elements">
+      <change afterPath="$PROJECT_DIR$/src/ArrayBubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArrayElementFrequency.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/ArrayRemoveDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraySumOfPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArraySelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TriangleOfStarAndZeros.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,45 +53,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArrayDeleteElement.executor": "Run",
-    "Application.ArrayInsertElement.executor": "Run",
-    "Application.ArraySumOfPairs.executor": "Run",
-    "Application.BinaryNumberChecking.executor": "Run",
-    "Application.EmployeeDetails.executor": "Run",
-    "Application.FibonacciSeries.executor": "Run",
-    "Application.OddPositiveChecking.executor": "Run",
-    "Application.PrintQuotedLine.executor": "Run",
-    "Application.SumOfPairs.executor": "Run",
-    "Application.TriangleOfNumbers.executor": "Run",
-    "NIXITCH_NIXPKGS_CONFIG": "/etc/nix/nixpkgs-config.nix",
-    "NIXITCH_NIX_CONF_DIR": "",
-    "NIXITCH_NIX_OTHER_STORES": "",
-    "NIXITCH_NIX_PATH": "nixpkgs=flake:nixpkgs:/nix/var/nix/profiles/per-user/root/channels",
-    "NIXITCH_NIX_PROFILES": "/run/current-system/sw /nix/var/nix/profiles/default /etc/profiles/per-user/masum /home/masum/.local/state/nix/profile /home/masum/.local/state/nix/profile /home/masum/.nix-profile /var/lib/flatpak/exports /home/masum/.local/share/flatpak/exports",
-    "NIXITCH_NIX_REMOTE": "",
-    "NIXITCH_NIX_USER_PROFILE_DIR": "/nix/var/nix/profiles/per-user/masum",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/masum/Dev-Environment/College-Assignments/Java-Assignments/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArrayBubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayDeleteElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayElementFrequency.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayInsertElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayRemoveDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraySelectionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArraySumOfPairs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinaryNumberChecking.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EmployeeDetails.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibonacciSeries.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OddPositiveChecking.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PrintQuotedLine.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SumOfPairs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TriangleOfNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TriangleOfStarAndZeros.executor&quot;: &quot;Run&quot;,
+    &quot;NIXITCH_NIXPKGS_CONFIG&quot;: &quot;/etc/nix/nixpkgs-config.nix&quot;,
+    &quot;NIXITCH_NIX_CONF_DIR&quot;: &quot;&quot;,
+    &quot;NIXITCH_NIX_OTHER_STORES&quot;: &quot;&quot;,
+    &quot;NIXITCH_NIX_PATH&quot;: &quot;nixpkgs=flake:nixpkgs:/nix/var/nix/profiles/per-user/root/channels&quot;,
+    &quot;NIXITCH_NIX_PROFILES&quot;: &quot;/run/current-system/sw /nix/var/nix/profiles/default /etc/profiles/per-user/masum /home/masum/.local/state/nix/profile /home/masum/.local/state/nix/profile /home/masum/.nix-profile /var/lib/flatpak/exports /home/masum/.local/share/flatpak/exports&quot;,
+    &quot;NIXITCH_NIX_REMOTE&quot;: &quot;&quot;,
+    &quot;NIXITCH_NIX_USER_PROFILE_DIR&quot;: &quot;/nix/var/nix/profiles/per-user/masum&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/masum/Dev-Environment/College-Assignments/Java-Assignments&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/masum/Dev-Environment/College-Assignments/Java-Assignments/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
       </set>
     </attachedChunks>
   </component>
@@ -111,7 +117,14 @@
       <workItem from="1726327963809" duration="52000" />
       <workItem from="1726330317589" duration="696000" />
       <workItem from="1726474184739" duration="7883000" />
-      <workItem from="1726542271605" duration="4886000" />
+      <workItem from="1726542271605" duration="5148000" />
+      <workItem from="1726547746486" duration="90000" />
+      <workItem from="1726714941832" duration="1200000" />
+      <workItem from="1726767123570" duration="1955000" />
+      <workItem from="1727170670573" duration="4324000" />
+      <workItem from="1729521599501" duration="14000" />
+      <workItem from="1730107793173" duration="31000" />
+      <workItem from="1730107827902" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -129,7 +142,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726169246579</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add array elements">
+      <option name="closed" value="true" />
+      <created>1726547586603</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726547586603</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add array elements">
+      <option name="closed" value="true" />
+      <created>1726547808899</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726547808899</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,7 +168,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="update according to college standards" />
     <MESSAGE value="organise" />
-    <option name="LAST_COMMIT_MESSAGE" value="organise" />
+    <MESSAGE value="add array elements" />
+    <option name="LAST_COMMIT_MESSAGE" value="add array elements" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
