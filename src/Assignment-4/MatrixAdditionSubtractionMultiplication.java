@@ -51,7 +51,7 @@ class MatrixAdditionSubtractionMultiplication {
                     System.out.println("Sum of matrices:");
                     for (int i = 0; i < rows; i++) {
                         for (int j = 0; j < columns; j++) {
-                            System.err.println(sum[i][j] + " ");
+                            System.out.println(sum[i][j] + " ");
                         }
                         System.out.println();
                     }
@@ -66,7 +66,7 @@ class MatrixAdditionSubtractionMultiplication {
                     System.out.println("Difference of matrices:");
                     for (int i = 0; i < rows; i++) {
                         for (int j = 0; j < columns; j++) {
-                            System.err.println(sub[i][j] + " ");
+                            System.out.println(sub[i][j] + " ");
                         }
                         System.out.println();
                     }

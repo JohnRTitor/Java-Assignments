@@ -30,11 +30,11 @@ class BoxDriver {
         Scanner sc = new Scanner(System.in);
 
         // Get box dimensions from user
-        System.err.print("Enter length of the box: ");
+        System.out.print("Enter length of the box: ");
         int length = sc.nextInt();
-        System.err.print("Enter breadth of the box: ");
+        System.out.print("Enter breadth of the box: ");
         int breadth = sc.nextInt();
-        System.err.print("Enter height of the box: ");
+        System.out.print("Enter height of the box: ");
         int height = sc.nextInt();
 
         // Create a Box object with the given dimensions
