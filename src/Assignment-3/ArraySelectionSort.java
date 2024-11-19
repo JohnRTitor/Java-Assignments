@@ -2,7 +2,8 @@ import java.util.Scanner;
 // to use the Scanner class and its methods for input
 // we need to import it
 
-class ArrayBubbleSort {
+// Start of ArraySelectionSort class
+class ArraySelectionSort {
     // Start of main() method
     public static void main (String[] args) {
         // Scanner object from the Scanner class is used
@@ -33,18 +34,21 @@ class ArrayBubbleSort {
         // print a new line at the end since print() doesn't
         System.out.println();
 
-        // bubble sort algorithm essentially compares adjacent elements
-        // then pushes the bubble/maximum element to the end of the array
+        // Selection sort essentially finds the minimum element
+        // in the unsorted part of the array
+        // and swaps it with the first element of the unsorted part
         // repeat this process size - 1 times, to sort the whole array
         for (int i = 0; i < size - 1; i++) {
-            for (int j = 0; j < size - 1; j++) {
-                if (arr[j] > arr[j + 1]) {
-                    // swap the elements
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
+            int minIndex = i;
+            for (int j = i + 1; j < size; j++) {
+                if (arr[minIndex] > arr[j]) {
+                    minIndex = j;
                 }
             }
+
+            int temp = arr[i];
+            arr[i] = arr[minIndex];
+            arr[minIndex] = temp;
         }
 
         // print the sorted array
@@ -55,4 +59,6 @@ class ArrayBubbleSort {
         // print a new line at the end since print() doesn't
         System.out.println();
     }
+    // End of main() method
 }
+// End of ArraySelectionSort class
