@@ -39,7 +39,7 @@ class StringCountWords {
 
         // finally we print the input string and the count of words
         System.out.println("Input string: " + input_string);
-        System.out.println("Count of words: " + result);
+        System.out.println("Number of words in the string: " + result);
     }
     // End of main() method
 }

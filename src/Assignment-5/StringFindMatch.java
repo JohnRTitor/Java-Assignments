@@ -12,9 +12,8 @@ class StringFindMatch {
         System.out.println("Enter string1: ");
         String str1 = sc.nextLine();
         System.out.println("Region to match for string1: ");
-        System.out.println("Lower bound: ");
+        System.out.println("Lower bound and upper bound: ");
         int low1 = sc.nextInt();
-        System.out.println("Upper bound: ");
         int high1 = sc.nextInt();
 
         // we need to check if the bounds are valid
@@ -23,13 +22,14 @@ class StringFindMatch {
             return;
         }
 
+        sc.nextLine(); // to consume the newline character
+
         // get the input strings and regions to match from the user
         System.out.println("Enter string2: ");
         String str2 = sc.nextLine();
         System.out.println("Region to match for string2: ");
-        System.out.println("Lower bound: ");
+        System.out.println("Lower bound and upper bound: ");
         int low2 = sc.nextInt();
-        System.out.println("Upper bound: ");
         int high2 = sc.nextInt();
 
         // we need to check if the bounds are valid
