@@ -2,7 +2,9 @@ import java.util.Scanner;
 // to use the Scanner class and its methods for input
 // we need to import it
 
+// Start of MatrixRowMinColMaxAllSum class
 class MatrixRowMinColMaxAllSum {
+    // Start of main() method
     public static void main(String[] args) {
         // Scanner object from the Scanner class is used
         Scanner sc = new Scanner(System.in);
@@ -40,6 +42,7 @@ class MatrixRowMinColMaxAllSum {
                 if (matrix[i][j] < rowMin)
                     rowMin = matrix[i][j];
             }
+            // Print row minimum
             System.out.println(rowMin);
         }
         System.out.println();
@@ -51,8 +54,12 @@ class MatrixRowMinColMaxAllSum {
                 if (matrix[i][j] > colMax)
                     colMax = matrix[i][j];
             }
+            // Print row maximum
             System.out.print(colMax + "\t");
         }
+        // Print the sum of all elements
         System.out.println(sum);
     }
+    // End of main() method
 }
+// End of MatrixRowMinColMaxAllSum class

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 // Start of ArrayMergeSort class
 class ArrayMergeSort {
+    // Start of mergeSort() method
     static void mergeSort (int[] arr, int lower, int upper) {
         if (lower < upper) {
             int mid = (lower + upper) / 2;
@@ -14,7 +15,9 @@ class ArrayMergeSort {
             merge(arr, lower, mid, upper);
         }
     }
+    // End of mergeSort() method
 
+    // Start of merge() method
     static void merge (int[] arr, int lower, int mid, int upper) {
         int n1 = mid - lower + 1;
         int n2 = upper - mid;
@@ -57,6 +60,7 @@ class ArrayMergeSort {
             k++;
         }
     }
+    // End of merge() method
 
     // Start of main() method
     public static void main (String[] args) {

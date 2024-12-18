@@ -2,7 +2,9 @@ import java.util.Scanner;
 // to use the Scanner class and its methods for input
 // we need to import it
 
+// Start of MatrixRowMinColMax class
 class MatrixRowMinColMax {
+    // Start of main() method
     public static void main(String[] args) {
         // Scanner object from the Scanner class is used
         Scanner sc = new Scanner(System.in);
@@ -21,6 +23,7 @@ class MatrixRowMinColMax {
         System.out.println("Enter the elements of the matrix: ");
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
+                // Fill each rows from user input
                 matrix[i][j] = sc.nextInt();
             }
         }
@@ -37,6 +40,7 @@ class MatrixRowMinColMax {
                 if (matrix[i][j] < rowMin)
                     rowMin = matrix[i][j];
             }
+            // Print row minimum
             System.out.println(rowMin);
         }
         System.out.println();
@@ -48,8 +52,11 @@ class MatrixRowMinColMax {
                 if (matrix[i][j] > colMax)
                     colMax = matrix[i][j];
             }
+            // Print column maximum
             System.out.print(colMax + "\t");
         }
         System.out.println();
     }
+    // End of main() method
 }
+// End of MatrixRowMinColMax class

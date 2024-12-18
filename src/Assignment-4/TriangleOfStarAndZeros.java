@@ -2,7 +2,9 @@ import java.util.Scanner;
 // to use the Scanner class and its methods for input
 // we need to import it
 
+// Start of TriangleOfStarAndZeros class
 class TriangleOfStarAndZeros {
+    // Start of main() method
     public static void main (String[] args) {
         // Scanner object from the Scanner class is used
         Scanner sc = new Scanner(System.in);
@@ -41,4 +43,6 @@ class TriangleOfStarAndZeros {
             System.out.println();
         }
     }
+    // End of main() method
 }
+// End of TriangleOfStarAndZeros class

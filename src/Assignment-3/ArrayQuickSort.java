@@ -4,6 +4,16 @@ import java.util.Scanner;
 
 // Start of ArrayQuickSort class
 class ArrayQuickSort {
+    // Start of quickSort() method
+    static void quickSort (int[] arr, int lower, int upper) {
+        if (lower < upper) {
+            int pivotIndex = partition(arr, lower, upper);
+            quickSort(arr, lower, pivotIndex - 1);
+            quickSort(arr, pivotIndex + 1, upper);
+        }
+    }
+    // End of quickSort() method
+
     // Partition method to place the pivot at its correct position
     static int partition(int[] arr, int low, int high) {
         // Selecting the first element as the pivot
@@ -40,14 +50,7 @@ class ArrayQuickSort {
 
         return j; // Return the pivot index
     }
-
-    static void quickSort (int[] arr, int lower, int upper) {
-        if (lower < upper) {
-            int pivotIndex = partition(arr, lower, upper);
-            quickSort(arr, lower, pivotIndex - 1);
-            quickSort(arr, pivotIndex + 1, upper);
-        }
-    }
+    // End of partition() method
 
     // Start of main() method
     public static void main (String[] args) {
