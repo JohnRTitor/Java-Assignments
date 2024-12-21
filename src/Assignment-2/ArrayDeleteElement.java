@@ -56,7 +56,7 @@ class ArrayDeleteElement {
 
         if (found == 0) {
             // we reach here if the element is not found
-            System.out.println(deleteThis + "not found in the array");
+            System.out.println(deleteThis + " not found in the array");
         } else {
             // we reach here if the element is found
             System.out.println(deleteThis + " found " + found + " times in the array and deleted");

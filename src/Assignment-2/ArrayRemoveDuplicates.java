@@ -1,5 +1,8 @@
 import java.util.Scanner;
+// to use the Scanner class and its methods for input
+// we need to import it
 
+// Start of ArrayRemoveDuplicates class
 class ArrayRemoveDuplicates {
     // Start of main() method
     public static void main (String[] args) {
@@ -58,4 +61,6 @@ class ArrayRemoveDuplicates {
 
         System.out.println("Size of the array after removing duplicates: " + size);
     }
+    // End of main() method
 }
+// End of ArrayRemoveDuplicates class

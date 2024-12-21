@@ -38,13 +38,18 @@ class ArraySumOfPairs {
         // print a new line at the end since print() doesn't
         System.out.println();
 
+        int count = 0;
         for (int i = 0; i < size; i++) {
             for (int j = i; j < size; j++) {
                 // check if the sum of the elements at index i and j is equal to the given sum
                 if (i != j && arr[i] + arr[j] == sum) {
                     System.out.println("Pair found at index " + i + " and " + j + " (" + arr[i] + " + " + arr[j] + ")");
+                    count++;
                 }
             }
+        }
+        if (count == 0) {
+            System.out.println("No pairs found adding up to the given sum");
         }
     }
     // End of main() method
