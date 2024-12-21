@@ -1,5 +1,8 @@
 import java.util.Scanner;
+// to use the Scanner class and its methods for input
+// we need to import it
 
+// Start of ArrayElementFrequency class
 class ArrayElementFrequency {
     // Start of main() method
     public static void main(String[] args) {
@@ -39,4 +42,6 @@ class ArrayElementFrequency {
             System.out.println("Frequency of " + searchFor + " is " + frequency);
         }
     }
+    // End of main() method
 }
+// End of ArrayElementFrequency class
