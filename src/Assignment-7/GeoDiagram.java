@@ -17,9 +17,14 @@ class Rectangle {
 
     // method to calculate the area of the rectangle
     double area() {
-        return 2 * (this.length + this.breadth);
+        return length * breadth;
     }
     // end of area() method
+
+    // method to calculate the perimeter of the rectangle
+    double perimeter() {
+        return 2 * (length + breadth);
+    }
 }
 // end of Rectangle class
 
@@ -53,8 +58,10 @@ class GeoDiagram {
         double side = sc.nextDouble();
         Square s = new Square(side);
 
-        // print the area of the rectangle and square
+        // print the area and perimeter of the rectangle and square
+        System.out.println("Perimeter of the rectangle R is: " + r.perimeter() + "units");
         System.out.println("Area of the rectangle R is: " + r.area() + "units");
+        System.out.println("Perimeter of the square S is: " + s.perimeter() + "units");
         System.out.println("Area of the square S is: " + s.area() + "units");
     }
     // end of main() method
